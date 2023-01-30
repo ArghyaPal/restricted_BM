@@ -1,6 +1,7 @@
-This folder includes the code for our monotone deep Boltzmann machine implementation.
+### This folder includes the code for our monotone deep Boltzmann machine implementation.
 
--- Required package: torch, numpy, matplotlib, tqdm
+-- Required package: 
+torch, numpy, matplotlib, tqdm
 
 -- Structure of the code: 
 	-- proxsoftmax.py includes the implementation for our prox_f^alpha for alpha between 0 and 1. Notice that one cannot set alpha=1 here.
